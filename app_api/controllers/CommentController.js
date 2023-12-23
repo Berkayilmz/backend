@@ -1,9 +1,11 @@
 var mongoose=require("mongoose");
 var Venue=mongoose.model("venue");
+//export const config={runtime:"nodejs",};
 
 const createResponse=function(res,status,content){
     res.status(status).json(content);
 }
+
 
 const addComment=function(req,res){
     createResponse(res,200,{"status":"Başarılı"});
