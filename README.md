@@ -2,7 +2,7 @@
 Mekanbul API'leri
 
 1. Konuma göre mekan listeleme: https://backend-dusky-seven.vercel.app/api/venues?lat=1&long=1
-![konum_mekan]("Konuma göre mekan.png")
+![screenshoot](Konuma göre mekan.png)
 
 2. Id'ye göre mekan getir: https://backend-dusky-seven.vercel.app/api/venues/6585e27d1da86c7985c99691
 ![id_mekan](Id'ye göre mekan.png)
