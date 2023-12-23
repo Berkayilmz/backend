@@ -14,7 +14,7 @@ var comment=new mongoose.Schema({
     date:{type:Date,default:Date.Now}
 });
 
-var venues=new mongoose.Schema({
+var venue=new mongoose.Schema({
     name:{type:String,required:true},
     adress:String,
     rating:{type:Number,min:0,max:5,default:0},
@@ -23,4 +23,4 @@ var venues=new mongoose.Schema({
     hour:[hour],
     comments:[comment]
 });
-mongoose.model("venues",venues,"venues");
+mongoose.model("venue",venue,"venues");
